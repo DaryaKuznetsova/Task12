@@ -10,6 +10,8 @@ namespace Task12
     {
         static void Main(string[] args)
         {
+            Console.WriteLine();
+            Console.WriteLine("where are the changes?");
             int n = 128;
             int[] arr = new int[n];
             for (int i = 0; i < arr.Length; i++)
