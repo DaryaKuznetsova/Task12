@@ -160,7 +160,7 @@ namespace Task12
                 try
                 {
                     a = Convert.ToInt32(Console.ReadLine());
-                    if (a > 0)
+                    if (a > 0)  
                         ok = true;
                     else throw new Exception();
                 }
