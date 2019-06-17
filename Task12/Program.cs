@@ -166,7 +166,7 @@ namespace Task12
                 }
                 catch (Exception)
                 {
-                    Console.WriteLine($"Пожалуйста, введите целое число от 0 до {int.MaxValue}.");
+                    Console.WriteLine($"Пожалуйста, введите целое число от 0 до 100000.");
                     ok = false;
                 }
             } while (!ok);
